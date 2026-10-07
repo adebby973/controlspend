@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Serif:opsz,wght@8..144,100..900&display=swap");
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.roboto-serif {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
