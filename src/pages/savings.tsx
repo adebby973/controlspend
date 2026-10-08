@@ -122,10 +122,7 @@ export default function Savings() {
     useEffect(() => {
         if (!plan || !chartRef.current) return;
 
-        const percentage = Math.min(
-            (plan.saved / plan.target) * 100,
-            100
-        );
+       
 
         const remaining = Math.max(
             plan.target - plan.saved,
